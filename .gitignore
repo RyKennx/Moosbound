@@ -1,0 +1,39 @@
+# --- DOSSIERS DE DÉPENDANCES (TRÈS LOURDS) ---
+node_modules/
+jspm_packages/
+web_modules/
+
+# --- FICHIERS SECRETS (SÉCURITÉ) ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+
+# --- FICHIERS SYSTÈME (INUTILES) ---
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# --- LOGS ET TEMPS ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# --- ÉDITEURS DE CODE (VS CODE, JETBRAINS) ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- DOSSIERS DE BUILD / SORTIE ---
+dist/
+build/
+out/
+.next/
+.cache/
